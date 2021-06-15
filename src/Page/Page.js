@@ -1,8 +1,11 @@
+import Header from "../components/Header/Header";
+import { PageContainer } from "./PageElements";
+
 const Page = () => {
   return (
-    <div>
-      <h1>test</h1>
-    </div>
+    <PageContainer>
+      <Header />
+    </PageContainer>
   );
 };
 

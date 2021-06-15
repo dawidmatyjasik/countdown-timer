@@ -14,4 +14,8 @@ body{
 html{
     font-size: 14px;
 }
+#root{
+    width: 100%;
+    height: 100%;
+}
 `;
