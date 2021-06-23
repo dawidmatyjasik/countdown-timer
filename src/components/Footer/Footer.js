@@ -1,17 +1,16 @@
 import React from "react";
-import Icon from "./Icon";
 import { FooterContainer, FooterIcons } from "./FooterElements";
-import Facebook from "../../images/icon-facebook.svg";
-import Pinterest from "../../images/icon-pinterest.svg";
-import Instagram from "../../images/icon-instagram.svg";
+import FacebookIcon from "@material-ui/icons/Facebook";
+import PinterestIcon from "@material-ui/icons/Pinterest";
+import InstagramIcon from "@material-ui/icons/Instagram";
 
 const Footer = () => {
   return (
     <FooterContainer>
       <FooterIcons>
-        <Icon icon={Facebook} />
-        <Icon icon={Pinterest} />
-        <Icon icon={Instagram} />
+        <FacebookIcon />
+        <PinterestIcon />
+        <InstagramIcon />
       </FooterIcons>
     </FooterContainer>
   );

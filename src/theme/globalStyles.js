@@ -13,6 +13,7 @@ body{
 }
 html{
     font-size: 14px;
+    overflow: hidden;
 }
 #root{
     width: 100%;

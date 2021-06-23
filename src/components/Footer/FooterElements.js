@@ -14,15 +14,12 @@ export const FooterIcons = styled.div`
   align-items: center;
   width: 100%;
   height: 100%;
-`;
-
-export const FooterIcon = styled.img`
-  height: auto;
-  margin-right: 3rem;
-  width: 8%;
-  max-width: 35px;
-  object-fit: contain;
-  &:nth-child(3) {
-    margin-right: 0;
+  & > svg {
+    color: ${({ theme }) => theme.colors.neutral.white};
+    font-size: 2rem;
+    margin-right: 2rem;
+    &:nth-child(3) {
+      margin-right: 0;
+    }
   }
 `;
