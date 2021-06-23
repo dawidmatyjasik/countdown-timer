@@ -6,7 +6,7 @@ export const PageContainer = styled.div`
   width: 100%;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 4.5fr 6fr 1.5fr;
+  grid-template-rows: 3.5fr 5.5fr 3fr;
   align-items: center;
   justify-items: center;
   background-color: ${({ theme }) => theme.colors.neutral.mostlyBlack};

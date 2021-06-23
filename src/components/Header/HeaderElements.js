@@ -8,4 +8,5 @@ export const HeaderTitle = styled.h1`
   font-size: 1.75rem;
   letter-spacing: 5px;
   text-align: center;
+  font-weight: 700;
 `;
