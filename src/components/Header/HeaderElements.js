@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const HeaderContainer = styled.header`
-  color: ${({ theme }) => theme.colors.neutral.white};
+  color: ${({ theme }) => theme.colors.fonts.title};
 `;
 export const HeaderTitle = styled.h1`
   text-transform: uppercase;

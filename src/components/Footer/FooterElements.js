@@ -15,11 +15,15 @@ export const FooterIcons = styled.div`
   width: 100%;
   height: 100%;
   & > svg {
-    color: ${({ theme }) => theme.colors.neutral.white};
+    color: ${({ theme }) => theme.colors.fonts.description};
     font-size: 2rem;
     margin-right: 2rem;
+    cursor: pointer;
     &:nth-child(3) {
       margin-right: 0;
+    }
+    &:hover {
+      color: ${({ theme }) => theme.colors.fonts.numberDown};
     }
   }
 `;

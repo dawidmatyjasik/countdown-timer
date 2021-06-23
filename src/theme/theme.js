@@ -1,14 +1,16 @@
 export const theme = {
   colors: {
-    primary: {
-      grayishBlue: "hsl(237, 18%, 59%)",
-      softRed: "hsl(345, 95%, 68%)",
+    fonts: {
+      title: "#ffffff",
+      numberUpper: "#d15174",
+      numberDown: "#fe5c83",
+      description: "#8a8aa6",
     },
-    neutral: {
-      white: "hsl(0, 100%, 100%)",
-      darkDesaturatedBlue: "hsl(236, 21%, 26%)",
-      veryDarkBlue: "hsl(235, 16%, 14%)",
-      mostlyBlack: "hsl(234, 17%, 12%)",
+    background: {
+      backgroundUpper: "#1e1e28",
+      backgroundDown: "#241b2c",
+      tileUpper: "#2c2c44",
+      tileDown: "#34364f",
     },
   },
 };

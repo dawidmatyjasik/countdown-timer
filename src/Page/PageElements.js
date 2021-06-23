@@ -9,7 +9,7 @@ export const PageContainer = styled.div`
   grid-template-rows: 3.5fr 5.5fr 3fr;
   align-items: center;
   justify-items: center;
-  background-color: ${({ theme }) => theme.colors.neutral.mostlyBlack};
+  background-color: ${({ theme }) => theme.colors.background.backgroundDown};
   background-image: url(${background});
   background-position: center;
   background-size: cover;

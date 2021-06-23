@@ -22,7 +22,7 @@ export const TileContainer = styled.div`
 export const TileText = styled.h3`
   position: relative;
   z-index: 999;
-  color: ${({ theme }) => theme.colors.primary.softRed};
+  color: ${({ theme }) => theme.colors.fonts.numberDown};
 `;
 
 export const TileContent = styled.div`
@@ -40,7 +40,7 @@ export const TileContent = styled.div`
     content: "";
     height: 50%;
     width: 100%;
-    background: ${({ theme }) => theme.colors.neutral.veryDarkBlue};
+    background: ${({ theme }) => theme.colors.background.tileUpper};
     top: 0;
     left: 0;
     position: absolute;
@@ -53,7 +53,7 @@ export const TileContent = styled.div`
     width: 100%;
     bottom: 0;
     position: absolute;
-    background: ${({ theme }) => theme.colors.neutral.darkDesaturatedBlue};
+    background: ${({ theme }) => theme.colors.background.tileDown};
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
   }
@@ -61,10 +61,10 @@ export const TileContent = styled.div`
 export const TileDescription = styled.h2`
   flex-basis: 10%;
   font-weight: 400;
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   letter-spacing: 3px;
   text-align: center;
-  color: ${({ theme }) => theme.colors.neutral.white};
+  color: ${({ theme }) => theme.colors.fonts.description};
   margin-top: 1rem;
   text-transform: uppercase;
 `;
