@@ -56,11 +56,12 @@ export const TileContent = styled.div`
     background: ${({ theme }) => theme.colors.background.tileDown};
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    box-shadow: 0px 7.5px 0.5px 0px rgba(0, 0, 0, 0.45);
   }
 `;
 export const TileDescription = styled.h2`
   flex-basis: 10%;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 0.75rem;
   letter-spacing: 3px;
   text-align: center;
