@@ -46,6 +46,7 @@ export const TileContent = styled.div`
     position: absolute;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
   }
   &:before {
     content: "";
@@ -59,6 +60,33 @@ export const TileContent = styled.div`
     box-shadow: 0px 7.5px 0.5px 0px rgba(0, 0, 0, 0.45);
   }
 `;
+
+export const TileRightCircle = styled.div`
+  position: absolute;
+  background: ${({ theme }) => theme.colors.background.backgroundUpper};
+  width: 7.5px;
+  height: 7.5px;
+  top: 51%;
+  z-index: 99999;
+  left: 100%;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  transform: translate(-5px, -50%);
+`;
+
+export const TileLeftCircle = styled.div`
+  position: absolute;
+  background: ${({ theme }) => theme.colors.background.backgroundUpper};
+  width: 7.5px;
+  height: 7.5px;
+  top: 51%;
+  z-index: 99999;
+  left: 0%;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  transform: translate(-3px, -50%);
+`;
+
 export const TileDescription = styled.h2`
   flex-basis: 10%;
   font-weight: 600;

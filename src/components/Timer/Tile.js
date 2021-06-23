@@ -4,6 +4,8 @@ import {
   TileContent,
   TileDescription,
   TileText,
+  TileRightCircle,
+  TileLeftCircle,
 } from "./TimerElements";
 
 const Tile = ({ time }) => {
@@ -11,6 +13,8 @@ const Tile = ({ time }) => {
     <TileContainer>
       <TileContent>
         <TileText>08</TileText>
+        <TileRightCircle />
+        <TileLeftCircle />
       </TileContent>
       <TileDescription>{time}</TileDescription>
     </TileContainer>
