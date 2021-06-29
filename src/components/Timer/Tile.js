@@ -8,11 +8,11 @@ import {
   TileLeftCircle,
 } from "./TimerElements";
 
-const Tile = ({ time }) => {
+const Tile = ({ time, left }) => {
   return (
     <TileContainer>
       <TileContent>
-        <TileText>08</TileText>
+        <TileText>{left}</TileText>
         <TileRightCircle />
         <TileLeftCircle />
       </TileContent>
