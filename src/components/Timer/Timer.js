@@ -12,6 +12,13 @@ const Timer = () => {
   const now = new Date().getTime();
   const timeleft = countDownDate - now;
 
+  useInterval(() => {
+    setDays(Math.floor(timeleft / (1000 * 60 * 60 * 24)));
+    setHours(Math.floor((timeleft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)));
+    setMinutes(Math.floor((timeleft % (1000 * 60 * 60)) / (1000 * 60)));
+    setSeconds(Math.floor((timeleft % (1000 * 60)) / 1000));
+  }, 1000);
+
   return (
     <TimerContainer>
       <Tile time="days" left={days}></Tile>
