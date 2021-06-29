@@ -14,7 +14,7 @@ export const FooterIcons = styled.div`
   align-items: center;
   width: 100%;
   height: 100%;
-  & > svg {
+  & svg {
     color: ${({ theme }) => theme.colors.fonts.description};
     font-size: 2rem;
     margin-right: 2rem;
@@ -26,4 +26,8 @@ export const FooterIcons = styled.div`
       color: ${({ theme }) => theme.colors.fonts.numberDown};
     }
   }
+`;
+
+export const FooterLink = styled.a`
+  text-decoration: none;
 `;

@@ -9,6 +9,7 @@ export const TimerContainer = styled.main`
   gap: 1rem;
   padding: 0 1rem;
   height: 35%;
+  min-height: 100px;
   width: 100%;
 `;
 
@@ -30,11 +31,11 @@ export const TileContent = styled.div`
   display: grid;
   place-items: center;
   z-index: 99;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 700;
   position: relative;
   @media (min-width: 800px) {
-    font-size: 4.5rem;
+    font-size: 4rem;
   }
   &:after {
     content: "";
