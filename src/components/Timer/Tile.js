@@ -12,7 +12,7 @@ const Tile = ({ time, left }) => {
   return (
     <TileContainer>
       <TileContent>
-        <TileText>{left}</TileText>
+        <TileText>{left < 10 ? `0${left}` : left}</TileText>
         <TileRightCircle />
         <TileLeftCircle />
       </TileContent>
